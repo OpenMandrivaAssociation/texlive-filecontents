@@ -1,3 +1,9 @@
+# revision 24250
+# category Package
+# catalog-ctan /macros/latex/contrib/filecontents
+# catalog-date 2011-10-09 16:42:04 +0200
+# catalog-license lppl
+# catalog-version 1.3
 Name:		texlive-filecontents
 Version:	1.3
 Release:	1
@@ -49,6 +55,7 @@ filecontents/filecontents* anywhere.
 #- source
 %doc %{_texmfdistdir}/source/latex/filecontents/filecontents.dtx
 %doc %{_texmfdistdir}/source/latex/filecontents/filecontents.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ filecontents/filecontents* anywhere.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
