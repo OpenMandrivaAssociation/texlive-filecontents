@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.3
 Name:		texlive-filecontents
-Version:	1.3
-Release:	10
+Version:	1.4
+Release:	1
 Summary:	Extended filecontents and filecontents* environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/filecontents
