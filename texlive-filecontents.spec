@@ -1,6 +1,6 @@
 Name:		texlive-filecontents
 Version:	52142
-Release:	1
+Release:	2
 Summary:	Extended filecontents and filecontents* environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/filecontents
