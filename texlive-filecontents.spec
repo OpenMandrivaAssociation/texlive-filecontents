@@ -3,7 +3,7 @@ Version:	66740
 Release:	1
 Summary:	Extended filecontents and filecontents* environments
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/filecontents
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/filecontents
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/filecontents.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/filecontents.doc.r%{version}.tar.xz
